@@ -1,4 +1,4 @@
-var bitcoinjs = require('bitcoinjs-lib')
+var bitcoinjs = require('react-native-bitcoinjs-lib')
 var discovery = require('./discovery')
 
 var Chain = require('./chain')

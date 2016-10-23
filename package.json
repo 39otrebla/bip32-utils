@@ -1,18 +1,18 @@
 {
   "name": "bip32-utils",
   "version": "0.9.1",
-  "description": "A set of utilities for working with BIP32.",
-  "author": "Daniel Cousens",
+  "description": "A set of utilities for working with BIP32 with React Native.",
+  "author": "Alberto Dallaporta",
   "main": "src/index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitcoinjs/bip32-utils.git"
+    "url": "https://github.com/39otrebla/react-native-bip32-utils"
   },
   "bugs": {
-    "url": "https://github.com/bitcoinjs/bip32-utils/issues"
+    "url": "https://github.com/39otrebla/react-native-bip32-utils/issues"
   },
-  "homepage": "https://github.com/bitcoinjs/bip32-utils",
+  "homepage": "https://github.com/39otrebla/react-native-bip32-utils",
   "keywords": [
     "bip32-utils",
     "bip32",
@@ -22,7 +22,8 @@
     "discovery",
     "gap",
     "bitcoinjs",
-    "bitcoin"
+    "bitcoin",
+    "react-native"
   ],
   "scripts": {
     "coverage-report": "nyc report --reporter=lcov",
@@ -32,12 +33,12 @@
     "unit": "tape test/*.js"
   },
   "devDependencies": {
-    "bitcoinjs-lib": "^2.3.0",
+    "react-native-bitcoinjs-lib": "^2.3.4",
     "nyc": "*",
     "standard": "*",
     "tape": "*"
   },
   "peerDependencies": {
-    "bitcoinjs-lib": "^2.3.0"
+    "react-native-bitcoinjs-lib": "^2.3.4"
   }
 }
