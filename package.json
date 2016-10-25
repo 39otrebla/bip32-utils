@@ -3,7 +3,7 @@
   "version": "0.9.2",
   "description": "A set of utilities for working with BIP32 with React Native.",
   "author": "Alberto Dallaporta",
-  "main": "src/index.js",
+  "main": "/index.js",
   "license": "MIT",
   "repository": {
     "type": "git",
